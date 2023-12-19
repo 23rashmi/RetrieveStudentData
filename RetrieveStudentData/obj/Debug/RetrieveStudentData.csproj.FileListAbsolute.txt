@@ -1,0 +1,7 @@
+F:\MPHASIS DOCUMENTS\DEC19 PROJECT\RetrieveStudentData\RetrieveStudentData\obj\Debug\RetrieveStudentData.csproj.AssemblyReference.cache
+F:\MPHASIS DOCUMENTS\DEC19 PROJECT\RetrieveStudentData\RetrieveStudentData\obj\Debug\RetrieveStudentData.csproj.CoreCompileInputs.cache
+F:\MPHASIS DOCUMENTS\DEC19 PROJECT\RetrieveStudentData\RetrieveStudentData\bin\Debug\RetrieveStudentData.exe.config
+F:\MPHASIS DOCUMENTS\DEC19 PROJECT\RetrieveStudentData\RetrieveStudentData\bin\Debug\RetrieveStudentData.exe
+F:\MPHASIS DOCUMENTS\DEC19 PROJECT\RetrieveStudentData\RetrieveStudentData\bin\Debug\RetrieveStudentData.pdb
+F:\MPHASIS DOCUMENTS\DEC19 PROJECT\RetrieveStudentData\RetrieveStudentData\obj\Debug\RetrieveStudentData.exe
+F:\MPHASIS DOCUMENTS\DEC19 PROJECT\RetrieveStudentData\RetrieveStudentData\obj\Debug\RetrieveStudentData.pdb
