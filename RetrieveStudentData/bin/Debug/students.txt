@@ -1,5 +1,5 @@
 Student Data:
 
-ID: 1, Name: Rahman, Age: 25
-ID: 2, Name: Reshma, Age: 22
-ID: 3, Name: Rashmi, Age: 20
+ID= 1, Name= Rahman, Age= 25
+ID= 2, Name= Reshma, Age= 22
+ID= 3, Name= Rashmi, Age= 20

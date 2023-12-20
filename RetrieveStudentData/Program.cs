@@ -40,7 +40,7 @@ namespace RetrieveStudentData
                     // Skip lines that are not in the expected format
                     if (!line.StartsWith("ID:"))
                     {
-                        Console.WriteLine($"Skipping invalid line: {line}");
+                        Console.WriteLine($" {line}");
                         continue;
                     }
 
@@ -69,6 +69,7 @@ namespace RetrieveStudentData
 
                 if (students.Count == 0)
                 {
+
                     Console.WriteLine("No valid student data found in the file.");
                 }
 
@@ -100,26 +101,31 @@ namespace RetrieveStudentData
             {
                 // Student data content
                 string studentDataContent = "Student Data:\n\n" +
-                    "ID: 1, Name: Rahman, Age: 25\n" +
-                    "ID: 2, Name: Reshma, Age: 22\n" +
-                    "ID: 3, Name: Rashmi, Age: 20";
+                    "ID= 1, Name= Rahman, Age= 25\n" +
+                    "ID= 2, Name= Reshma, Age= 22\n" +
+                    "ID= 3, Name= Rashmi, Age= 20";
 
                 // Write student data to Notepad
                 WriteToNotepad(studentDataContent);
+
+
+                
+
             }
 
 
-            string filePath = "F:/MPHASIS DOCUMENTS/DEC19 PROJECT/RetrieveStudentData/RetrieveStudentData/bin/Debug/students.txt"; // Update with the actual file path
+            string filePath = "F:\\MPHASIS DOCUMENTS\\DEC19 PROJECT\\RetrieveStudentData\\RetrieveStudentData\\bin\\Debug\\students.txt"; // Update with the actual file path
 
             List<Student> students = ReadStudentDataFromFile(filePath);
 
+
             if (students.Count > 0)
             {
-                Console.WriteLine("students:");
+                Console.WriteLine("students data:");
                 DisplayStudentData(students);
 
                 // Write data to a temporary text file
-                string tempFilePath = Path.Combine(Path.GetTempPath(), "students.txt");
+                string tempFilePath = Path.Combine(Path.GetTempPath(), "F:\\MPHASIS DOCUMENTS\\DEC19 PROJECT\\RetrieveStudentData\\RetrieveStudentData\\bin\\Debug\\students.txt");
                 WriteDataToTextFile(students, tempFilePath);
 
                 // Open the temporary text file with Notepad
@@ -168,6 +174,7 @@ namespace RetrieveStudentData
                     foreach (var student in students)
                     {
                         sw.WriteLine(student);
+                        sw.Close();
                     }
                 }
             }
