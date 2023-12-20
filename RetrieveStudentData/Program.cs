@@ -154,7 +154,7 @@ namespace RetrieveStudentData
                 sw.WriteLine(content);
 
                 // Close StreamWriter and wait for Notepad to exit
-                sw.Close();
+                //sw.Close();
                 notepadProcess.WaitForExit();
             }
             catch (Exception ex)
